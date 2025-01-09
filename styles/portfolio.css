@@ -134,3 +134,24 @@ main section{
 .download-cv{
     text-align: center;
 }
+/* footer stylws */
+footer{
+    display: flex;
+    padding: 130px 200px;
+    margin-top: 100px;
+    background: rgba(255, 170, 0, 0.296);
+    gap: 100px;
+}
+.social-links a{margin-right: 25px;}
+.footer-column{
+    width: 50%;
+}
+.contact input,textarea,button{
+    display: block;
+    margin: 25px;
+    padding: 18px 35px;
+    
+}
+.contact input,textarea{
+    width: 100%;
+}
